@@ -1,0 +1,27 @@
+GitHubへアップロードするもの
+
+[必須]
+app.py
+requirements.txt
+README.md
+.gitignore
+UPLOAD_CHECKLIST.txt
+
+[フォルダ]
+.streamlit/config.toml
+.streamlit/secrets.toml.example
+
+assets/correct.wav
+assets/wrong.wav
+assets/rare.wav
+assets/perfect.wav
+
+data/creatures.csv
+data/.gitkeep
+
+sql/schema.sql
+
+[絶対にGitHubへ上げない]
+.streamlit/secrets.toml
+
+Supabase設定後、Streamlit Community CloudのSecretsにURLとKeyを直接登録する。
